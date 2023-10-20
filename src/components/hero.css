@@ -1,0 +1,90 @@
+.mainBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 80%;
+}
+.Img1 {
+  float: right;
+  margin-top: 2rem;
+  margin-right: -6rem;
+}
+.Shoe {
+  filter: drop-shadow(30px 10px 10px rgba(0, 0, 0, 0.787));
+}
+.Head {
+  margin-top: 2rem;
+  font-size: 80px;
+}
+.Description {
+  font-weight: 600;
+}
+.BtnS {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* width: 20rem; */
+}
+.Btn1 {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 11px 15px;
+  background-color: rgba(255, 0, 0, 0.794);
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.Btn2 {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 11px 15px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.Random {
+  font-weight: 600;
+}
+.Flipkart {
+  width: 3rem;
+  margin: 5px;
+  cursor: pointer;
+}
+.Amazon {
+  width: 3rem;
+  margin: 5px;
+  cursor: pointer;
+}
+@media all and (max-width: 572px) and (min-width: 300px) {
+  .Img1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    float: none;
+  }
+  .Head {
+    font-size: 30px;
+  }
+  .Shoe {
+    width: 20rem;
+  }
+  .BtnS {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Btn1,
+  .Btn2 {
+    text-align: center;
+    width: 7rem;
+  }
+  .Img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

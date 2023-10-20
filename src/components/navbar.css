@@ -1,0 +1,58 @@
+.mainContainer {
+  display: flex;
+
+  justify-content: space-between;
+  margin: 0px 20px;
+  border-radius: 4px;
+}
+.imgBox {
+  margin-top: 5px;
+}
+.mainImg {
+  margin-top: 8px;
+  width: 70px;
+}
+.page ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.page li {
+  cursor: pointer;
+  font-weight: 600;
+  margin: 0px 10px;
+}
+.loginBtn {
+  font-weight: 600;
+  margin-top: 12px;
+  padding: 11px;
+  background-color: rgba(255, 0, 0, 0.892);
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+@media all and (max-width: 572px) and (min-width: 300px) {
+  .mainContainer {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+  }
+  .page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imgBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loginBtn {
+    width: 30%;
+    text-align: center;
+    margin: auto;
+  }
+}
